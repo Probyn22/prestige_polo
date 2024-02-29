@@ -18,7 +18,9 @@ html {
 body {
   background: rgb(var(--page-background));
   /*font: var(--text-font-style) var(--text-font-weight) var(--text-base) / 1.65 var(--text-font-family);*/
-  font:400 16px "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   
   letter-spacing: var(--text-letter-spacing);
   margin: 0;
