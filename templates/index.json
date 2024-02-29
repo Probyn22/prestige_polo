@@ -150,8 +150,8 @@
         "content_alignment": "start",
         "text_alignment": "start",
         "spacing": "md",
-        "subheading": "About",
-        "title": "Multi-column",
+        "subheading": "chia siamo",
+        "title": "Il nostro store",
         "content": ""
       }
     },
@@ -162,7 +162,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
+            "collection": "maglie",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -177,7 +177,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
+            "collection": "donna-saldo",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -192,52 +192,7 @@
           "type": "collection",
           "settings": {
             "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "View products",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "",
-            "collection": "",
+            "collection": "frontpage",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -252,10 +207,7 @@
       "block_order": [
         "collection-1",
         "collection-2",
-        "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6"
+        "collection-3"
       ],
       "settings": {
         "color_scheme": "",
@@ -277,6 +229,8 @@
           "type": "before",
           "settings": {
             "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/07.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02_31d6c8f3-3938-40fe-8ab6-c05dfb4f62b9.jpg",
             "text": "Before",
             "link_text": "",
             "link_url": "",
@@ -287,6 +241,8 @@
           "type": "after",
           "settings": {
             "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/02_31d6c8f3-3938-40fe-8ab6-c05dfb4f62b9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02_31d6c8f3-3938-40fe-8ab6-c05dfb4f62b9.jpg",
             "text": "After",
             "link_text": "",
             "link_url": "",
