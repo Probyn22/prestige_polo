@@ -7456,7 +7456,7 @@ tfoot td {
 
 .heading, .h1, .h2, .h3, .h4, .h5, .h6, .prose :where(h1, h2, h3, h4, h5, h6) {
   /*font-family: var(--heading-font-family);*/
-  font-family:"Barolw Semi Condensed";
+  font-family:"Barlow Semi Condensed", sans-serif;
   font-weight: var(--heading-font-weight);
   font-style: var(--heading-font-style);
   letter-spacing: var(--heading-letter-spacing);
@@ -7607,4 +7607,8 @@ ul {
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
+}
+
+*{
+  font-family: "Barlow Semi Condensed", sans-serif !important;
 }
