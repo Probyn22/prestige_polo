@@ -79,7 +79,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "maglie",
             "products_count": 8,
             "title": "",
             "link_url": "",
