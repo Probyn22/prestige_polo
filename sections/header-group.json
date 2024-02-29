@@ -42,10 +42,25 @@
             "image_2_text": "Scopri la collezione",
             "image_2_link": "shopify:\/\/collections\/collezione-test"
           }
+        },
+        "mega_menu_AhAPg3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "uomo",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
         }
       },
       "block_order": [
-        "mega_menu_dNejUp"
+        "mega_menu_dNejUp",
+        "mega_menu_AhAPg3"
       ],
       "settings": {
         "color_scheme": "",
