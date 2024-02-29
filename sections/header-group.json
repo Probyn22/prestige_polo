@@ -1,1 +1,109 @@
-{"type":"header","name":"Header group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"message-1":{"type":"message","settings":{"text":"Announce something here"}}},"block_order":["message-1"],"disabled":true,"settings":{"color_scheme":"","enable_sticky":false,"autoplay":true,"cycle_speed":5,"desktop_font_size":11,"mobile_font_size":10}},"header":{"type":"header","settings":{"color_scheme":"","enable_sticky":true,"show_separation_border":true,"reduce_padding":false,"logo":"{{ shop.brand.logo }}","logo_max_width":140,"logo_mobile_max_width":100,"menu":"main-menu","sidebar_menu":"","menu_open_trigger":"hover","enable_search":true,"sidebar_color_scheme":"","sidebar_text_font":"heading","sidebar_show_dividers":true,"layout":"logo_left_navigation_inline","show_icons":true,"show_country_selector":true,"show_country_name":false,"show_country_flag":true,"show_locale_selector":false,"transparent_header_text_color":"#ffffff"}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_dNejUp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "CATALOGO",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/A7---d_28_29_g---12000100_14c21450-6eb0-4902-bcea-770ccc6a12cf.jpg",
+            "image_1_heading": "<strong>Maglie<\/strong>",
+            "image_1_text": "sopri la collezione",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
+            "image_2_heading": "Felpe",
+            "image_2_text": "Scopri la collezione",
+            "image_2_link": "shopify:\/\/collections\/collezione-test"
+          }
+        },
+        "mega_menu_AhAPg3": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "uomo",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_diHQBw": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "donna",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/P21---obey---008CALI1CCH10_bf69bc36-d9cc-4d22-8a49-c51007d0b9e1.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_dNejUp",
+        "mega_menu_AhAPg3",
+        "mega_menu_diHQBw"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "show_separation_border": true,
+        "reduce_padding": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_left_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": false,
+        "show_locale_selector": true,
+        "transparent_header_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
