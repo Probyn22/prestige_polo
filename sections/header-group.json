@@ -56,11 +56,26 @@
             "image_2_text": "",
             "image_2_link": ""
           }
+        },
+        "mega_menu_diHQBw": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "donna",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/P21---obey---008CALI1CCH10_bf69bc36-d9cc-4d22-8a49-c51007d0b9e1.jpg",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
         }
       },
       "block_order": [
         "mega_menu_dNejUp",
-        "mega_menu_AhAPg3"
+        "mega_menu_AhAPg3",
+        "mega_menu_diHQBw"
       ],
       "settings": {
         "color_scheme": "",
