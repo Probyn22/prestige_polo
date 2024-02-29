@@ -1,7 +1,7 @@
 /*foglio di stile per le pesonalizzazioni*/
 /*utilizzo barlow come font*/
 *{
-  font-family: "Barlow Semi Condensed", sans-serif ;
+  font-family: "Barlow Semi Condensed", sans-serif !important;
 }
 
 /*modifico il megamenu*/
