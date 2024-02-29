@@ -1,6 +1,6 @@
 /*foglio di stile per le pesonalizzazioni*/
 /*utilizzo barlow come font*/
-*{
+body, *{
   font-family: "Barlow Semi Condensed", sans-serif !important;
 }
 
