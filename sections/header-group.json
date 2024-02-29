@@ -32,13 +32,15 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "CATALOGO",
-            "images_position": "right",
-            "image_1_heading": "",
-            "image_1_text": "",
+            "images_position": "left",
+            "image_1": "shopify:\/\/shop_images\/A7---d_28_29_g---12000100_14c21450-6eb0-4902-bcea-770ccc6a12cf.jpg",
+            "image_1_heading": "<strong>Maglie<\/strong>",
+            "image_1_text": "sopri la collezione",
             "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": ""
+            "image_2": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
+            "image_2_heading": "Felpe",
+            "image_2_text": "Scopri la collezione",
+            "image_2_link": "shopify:\/\/collections\/collezione-test"
           }
         }
       },
