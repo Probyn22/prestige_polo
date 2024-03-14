@@ -41,7 +41,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "SIZE AND FIT",
-            "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }}<\/p>",
+            "content": "<p>FFF{{ product.metafields.product.size_and_fit | metafield_tag }}<\/p>",
             "liquid": "",
             "page": ""
           }
