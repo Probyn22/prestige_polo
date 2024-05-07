@@ -33,11 +33,9 @@
           "settings": {
             "menu_item": "CATALOGO",
             "images_position": "left",
-            "image_1": "shopify:\/\/shop_images\/A7---d_28_29_g---12000100_14c21450-6eb0-4902-bcea-770ccc6a12cf.jpg",
             "image_1_heading": "<strong>Maglie<\/strong>",
             "image_1_text": "sopri la collezione",
             "image_1_link": "",
-            "image_2": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
             "image_2_heading": "Felpe",
             "image_2_text": "Scopri la collezione",
             "image_2_link": "shopify:\/\/collections\/collezione-test"
@@ -48,7 +46,6 @@
           "settings": {
             "menu_item": "uomo",
             "images_position": "left",
-            "image_1": "shopify:\/\/shop_images\/P21---obey---007PABLO73FAR1_4_P_93cee8db-73e5-437a-9731-bba9dc677723.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
@@ -62,7 +59,6 @@
           "settings": {
             "menu_item": "donna",
             "images_position": "left",
-            "image_1": "shopify:\/\/shop_images\/P21---obey---008CALI1CCH10_bf69bc36-d9cc-4d22-8a49-c51007d0b9e1.jpg",
             "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
@@ -82,9 +78,9 @@
         "enable_sticky": true,
         "show_separation_border": true,
         "reduce_padding": false,
-        "logo": "{{ shop.brand.logo }}",
-        "logo_max_width": 140,
-        "logo_mobile_max_width": 100,
+        "logo": "shopify:\/\/shop_images\/logo_largoo_450x_58c4b896-47e2-4e95-9774-05fc7b2cc479.svg",
+        "logo_max_width": 230,
+        "logo_mobile_max_width": 195,
         "menu": "main-menu",
         "sidebar_menu": "",
         "menu_open_trigger": "hover",
