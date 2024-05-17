@@ -3,6 +3,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_eMc6gL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.product.super_color.value }}<\/p>"
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -92,6 +98,7 @@
         }
       },
       "block_order": [
+        "text_eMc6gL",
         "vendor",
         "title",
         "sku_Gf9eCd",
