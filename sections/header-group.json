@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header group",
@@ -33,12 +42,12 @@
           "settings": {
             "menu_item": "CATALOGO",
             "images_position": "left",
-            "image_1_heading": "<strong>Maglie<\/strong>",
+            "image_1_heading": "<strong>Maglie</strong>",
             "image_1_text": "sopri la collezione",
             "image_1_link": "",
             "image_2_heading": "Felpe",
             "image_2_text": "Scopri la collezione",
-            "image_2_link": "shopify:\/\/collections\/collezione-test"
+            "image_2_link": "shopify://collections/collezione-test"
           }
         },
         "mega_menu_AhAPg3": {
@@ -78,7 +87,7 @@
         "enable_sticky": true,
         "show_separation_border": true,
         "reduce_padding": false,
-        "logo": "shopify:\/\/shop_images\/logo_largoo_450x_58c4b896-47e2-4e95-9774-05fc7b2cc479.svg",
+        "logo": "{{ shop.brand.logo }}",
         "logo_max_width": 230,
         "logo_mobile_max_width": 195,
         "menu": "main-menu",
