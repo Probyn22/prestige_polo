@@ -48,7 +48,7 @@
             "icon": "none",
             "custom_icon": "shopify://shop_images/favvvv.svg",
             "title": "SIZE AND FIT",
-            "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }} - </p>",
             "liquid": "",
             "page": ""
           }
@@ -59,8 +59,8 @@
             "show_below_gallery": true,
             "icon": "none",
             "custom_icon": "shopify://shop_images/favvvv.svg",
-            "title": "DDESCRIZIONE BREVE",
-            "content": "<p>{{ product.metafields.product.short_text | metafield_tag }}</p>",
+            "title": "DESCRIZIONE BREVE",
+            "content": "<p>{{ product.metafields.product.short_text | metafield_tag }} -</p>",
             "liquid": "",
             "page": ""
           }
@@ -72,7 +72,7 @@
             "icon": "none",
             "custom_icon": "shopify://shop_images/favvvv.svg",
             "title": "COLORE SUPER",
-            "content": "<p>{{ product.metafields.product.super_color.value }}</p>",
+            "content": "<p>{{ product.metafields.product.super_color.value }}-</p>",
             "liquid": "",
             "page": ""
           }
