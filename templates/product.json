@@ -17,12 +17,6 @@
           "settings": {
           }
         },
-        "text_eMc6gL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.product.super_color.value }}</p>"
-          }
-        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -40,15 +34,11 @@
             "show_taxes_notice": false
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
+        "description": {
+          "type": "description",
           "settings": {
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "disabled": true,
-          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
           }
         },
         "accordion_bCyrdy": {
@@ -63,11 +53,16 @@
             "page": ""
           }
         },
-        "description": {
-          "type": "description",
+        "accordion_KFzQw9": {
+          "type": "accordion",
           "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
+            "show_below_gallery": true,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "title": "DDESCRIZIONE BREVE",
+            "content": "<p>{{ product.metafields.product.short_text | metafield_tag }}</p>",
+            "liquid": "",
+            "page": ""
           }
         },
         "variant_picker": {
@@ -95,35 +90,22 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "complementary_products": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
-          }
         }
       },
       "block_order": [
         "sku_Gf9eCd",
-        "text_eMc6gL",
         "vendor",
         "title",
         "price",
-        "payment_terms",
-        "separator",
-        "accordion_bCyrdy",
         "description",
+        "accordion_bCyrdy",
+        "accordion_KFzQw9",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "complementary_products"
+        "buy_buttons"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "container_size": "xl",
         "product_info_size": 45,
         "show_sticky_add_to_cart": true,
