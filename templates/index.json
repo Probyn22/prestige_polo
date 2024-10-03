@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/slide_1.jpg",
             "mobile_image": "shopify://shop_images/mob.jpg",
             "subheading": "",
-            "title": "SHOP NOW",
+            "title": "shop now",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 1200,
