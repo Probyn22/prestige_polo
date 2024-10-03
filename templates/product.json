@@ -118,7 +118,7 @@
         "buy_buttons"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "container_size": "xl",
         "product_info_size": 45,
         "show_sticky_add_to_cart": true,
