@@ -152,7 +152,7 @@
         "image_NFFtmU": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "image": "shopify://shop_images/aw_eastpack.jpg",
             "column_count": "4",
             "row_count": 2,
@@ -160,7 +160,7 @@
             "heading_tag": "h4",
             "content": "",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify://collections/tutti-gli-articoli",
             "link_style": "link",
             "text_position": "place-self-start text-start",
             "overlay_color": "#000000",
