@@ -101,7 +101,7 @@
       ],
       "settings": {
         "allow_transparent_header": true,
-        "show_next_section_button": true,
+        "show_next_section_button": false,
         "media_size": "sm",
         "autoplay": true,
         "autoplay_pause_on_video": true,
@@ -110,68 +110,73 @@
         "controls_color": "#ffffff"
       }
     },
-    "collection_list_Q7Lq94": {
-      "type": "collection-list",
+    "media_grid_gVViBe": {
+      "type": "media-grid",
       "blocks": {
-        "collection_JNVxc4": {
-          "type": "collection",
-          "settings": {
-            "color_scheme": "scheme-4",
-            "collection": "bambino",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
-            "title": "",
-            "button_text": "BAMBINO",
-            "button_link": "",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_TaYxNm": {
-          "type": "collection",
+        "image_NUwgz3": {
+          "type": "image",
           "settings": {
             "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "column_count": "4",
+            "row_count": 2,
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         },
-        "collection_bfLwfc": {
-          "type": "collection",
+        "image_U3TJq3": {
+          "type": "image",
           "settings": {
             "color_scheme": "",
-            "collection": "",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
-            "subheading": "",
+            "column_count": "4",
+            "row_count": 2,
             "title": "",
-            "button_text": "View products",
-            "button_link": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
+          }
+        },
+        "image_NFFtmU": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "column_count": "4",
+            "row_count": 2,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "collection_JNVxc4",
-        "collection_TaYxNm",
-        "collection_bfLwfc"
+        "image_NUwgz3",
+        "image_U3TJq3",
+        "image_NFFtmU"
       ],
       "settings": {
         "color_scheme": "",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "show_text_outside": false,
-        "space_items": true,
-        "stack_collections": false,
-        "collections_per_row_desktop": 5,
+        "separate_section_with_border": false,
+        "desktop_row_height": 400,
+        "mobile_row_height": 240,
+        "section_width": "full",
+        "spacing": "xs",
         "subheading": "",
         "title": "",
         "content": ""
@@ -180,6 +185,6 @@
   },
   "order": [
     "slideshow",
-    "collection_list_Q7Lq94"
+    "media_grid_gVViBe"
   ]
 }
