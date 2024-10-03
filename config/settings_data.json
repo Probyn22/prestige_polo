@@ -11,6 +11,7 @@
   "current": {
     "icon_stroke_width": 1.3,
     "section_vertical_spacing": "md",
+    "modal_color_scheme": "scheme-1",
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
@@ -88,9 +89,9 @@
           "background_gradient": "",
           "text_color": "#ffffff",
           "primary_button_background": "#ffffff",
-          "primary_button_text_color": "#1c1c1c",
+          "primary_button_text_color": "{{ shop.brand.colors.secondary[1].background }}",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "{{ shop.brand.colors.secondary[1].background }}"
         }
       }
     }
