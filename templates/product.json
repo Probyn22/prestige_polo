@@ -56,8 +56,9 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
+            "custom_icon": "shopify://shop_images/favvvv.svg",
             "title": "SIZE AND FIT",
-            "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }}{{ product.title }}</p>",
+            "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }}</p>",
             "liquid": "",
             "page": ""
           }
