@@ -116,7 +116,7 @@
         "image_NUwgz3": {
           "type": "image",
           "settings": {
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "image": "shopify://shop_images/4.jpg",
             "column_count": "4",
             "row_count": 2,
