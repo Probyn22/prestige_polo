@@ -184,10 +184,40 @@
         "title": "",
         "content": ""
       }
+    },
+    "featured_collections_HyLfjP": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6apx3N": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6apx3N"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 6,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 0.4,
+        "subheading": ""
+      }
     }
   },
   "order": [
     "slideshow",
-    "media_grid_gVViBe"
+    "media_grid_gVViBe",
+    "featured_collections_HyLfjP"
   ]
 }
