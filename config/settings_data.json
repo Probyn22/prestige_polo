@@ -64,11 +64,11 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
+          "text_color": "{{ shop.brand.colors.secondary[1].background }}",
+          "primary_button_background": "{{ shop.brand.colors.secondary[1].background }}",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "{{ shop.brand.colors.secondary[1].background }}"
         }
       },
       "scheme-3": {
