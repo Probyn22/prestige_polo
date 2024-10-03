@@ -42,7 +42,8 @@
         "image_CcXPqq": {
           "type": "image",
           "settings": {
-            "image_width": 150,
+            "image": "shopify://shop_images/convddd.png",
+            "image_width": 300,
             "link": ""
           }
         }
