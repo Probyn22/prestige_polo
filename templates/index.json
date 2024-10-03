@@ -191,11 +191,11 @@
         "collection_6apx3N": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "products_count": 8,
+            "collection": "tutti-gli-articoli",
+            "products_count": 50,
             "title": "",
-            "link_url": "",
-            "link_text": "View all"
+            "link_url": "shopify://collections/tutti-gli-articoli",
+            "link_text": ""
           }
         }
       },
