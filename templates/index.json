@@ -46,11 +46,11 @@
             "mobile_image": "shopify://shop_images/mens-tshirts.jpg",
             "subheading": "Tell your story",
             "title": "Image slide",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "content_max_width": 1200,
+            "button_1_text": "TUTTI GLI ARTICOLI →",
+            "button_1_link": "shopify://collections/tutti-gli-articoli",
             "button_1_style": "solid",
             "button_1_background": "#ffffff",
             "button_1_text_color": "#000000",
@@ -63,7 +63,7 @@
             "background_opacity": 50,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": ""
+            "gradient_overlay": "linear-gradient(182deg, rgba(54, 54, 54, 0), rgba(NaN, NaN, NaN, 0) 100%)"
           }
         }
       },
