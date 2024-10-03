@@ -57,7 +57,8 @@
         "show_country_name": false,
         "show_country_flag": false,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/logo_white.svg"
       }
     }
   },
