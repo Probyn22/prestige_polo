@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/01_61d68431-1840-4f5c-942f-f1b323bd8375.jpg",
-            "mobile_image": "shopify://shop_images/01_61d68431-1840-4f5c-942f-f1b323bd8375.jpg",
+            "image": "shopify://shop_images/clothing-on-retail-rack.jpg",
+            "mobile_image": "shopify://shop_images/clothing-on-retail-rack.jpg",
             "subheading": "Tell your story",
             "title": "Image slide",
             "mobile_text_position": "place-self-center text-center",
