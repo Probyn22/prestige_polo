@@ -71,7 +71,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "custom_icon": "shopify://shop_images/favvvv.svg",
-            "title": "Colore",
+            "title": "COLORE",
             "content": "<p>{{ product.metafields.product.color.value }}</p>",
             "liquid": "",
             "page": ""
