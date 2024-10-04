@@ -46,7 +46,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
             "title": "SIZE AND FIT",
             "content": "<p>{{ product.metafields.product.size_and_fit | metafield_tag }} - </p>",
             "liquid": "",
@@ -58,9 +58,9 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
             "title": "DESCRIZIONE BREVE",
-            "content": "<p>{{ product.metafields.product.short_text | metafield_tag }}-</p>",
+            "content": "<p>{{ product.metafields.product.short_text | metafield_tag }}</p>",
             "liquid": "",
             "page": ""
           }
