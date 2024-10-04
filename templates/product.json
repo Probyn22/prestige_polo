@@ -89,6 +89,18 @@
             "page": ""
           }
         },
+        "accordion_aEBw9K": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
+            "title": "TESSUTO",
+            "content": "<p>{{ product.metafields.product.fabric.value }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -126,6 +138,7 @@
         "accordion_KFzQw9",
         "accordion_BrNymn",
         "accordion_CQPjix",
+        "accordion_aEBw9K",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
