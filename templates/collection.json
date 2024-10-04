@@ -11,10 +11,9 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
-        "color_scheme": "",
-        "image_size": "auto",
+        "color_scheme": "scheme-1",
+        "image_size": "xs",
         "allow_transparent_header": true,
         "reveal": true,
         "enable_parallax": true,
@@ -35,7 +34,7 @@
         "products_per_page": 48,
         "products_per_row_mobile": "2",
         "products_size_desktop": "medium",
-        "show_grid_mode_selector": false,
+        "show_grid_mode_selector": true,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 0.3,
         "filter_layout": "sidebar",
