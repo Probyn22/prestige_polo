@@ -113,6 +113,18 @@
             "page": ""
           }
         },
+        "accordion_CEf4ed": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
+            "title": "COMPOSIZIONE",
+            "content": "<p>{{ product.metafields.product.composition | metafield_tag }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -152,6 +164,7 @@
         "accordion_CQPjix",
         "accordion_aEBw9K",
         "accordion_zg4GAy",
+        "accordion_CEf4ed",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
