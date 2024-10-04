@@ -70,7 +70,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
             "title": "COLORE",
             "content": "<p>{{ product.metafields.product.color.value }}</p>",
             "liquid": "",
@@ -82,7 +82,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
             "title": "COLORE SUPER",
             "content": "<p>{{ product.metafields.product.super_color.value }}</p>",
             "liquid": "",
