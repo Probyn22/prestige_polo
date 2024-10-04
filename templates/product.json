@@ -101,6 +101,18 @@
             "page": ""
           }
         },
+        "accordion_zg4GAy": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/fav_polo.png",
+            "title": "STAGIONE",
+            "content": "<p>{{ product.metafields.product.season.value }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -139,6 +151,7 @@
         "accordion_BrNymn",
         "accordion_CQPjix",
         "accordion_aEBw9K",
+        "accordion_zg4GAy",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
