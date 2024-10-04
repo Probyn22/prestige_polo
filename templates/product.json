@@ -65,6 +65,18 @@
             "page": ""
           }
         },
+        "accordion_BrNymn": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/favvvv.svg",
+            "title": "Colore",
+            "content": "<p>{{ product.metafields.product.color.value }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "accordion_CQPjix": {
           "type": "accordion",
           "settings": {
@@ -72,7 +84,7 @@
             "icon": "none",
             "custom_icon": "shopify://shop_images/favvvv.svg",
             "title": "COLORE SUPER",
-            "content": "<p>{{ product.metafields.product.super_color.value }}-</p>",
+            "content": "<p>{{ product.metafields.product.super_color.value }}</p>",
             "liquid": "",
             "page": ""
           }
@@ -112,6 +124,7 @@
         "description",
         "accordion_bCyrdy",
         "accordion_KFzQw9",
+        "accordion_BrNymn",
         "accordion_CQPjix",
         "variant_picker",
         "quantity_selector",
