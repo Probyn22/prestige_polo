@@ -96,6 +96,14 @@
   </div>
 </div>
 
+
+{% for variant in product.variants %}
+  {% if variant.inventory_policy == "continue" %}
+    <span class="label-continue-selling">Disponibile per Pre-Ordine</span>
+  {% endif %}
+{% endfor %}
+
+
 {%- if section.settings.show_sticky_add_to_cart and product.available -%}
   {%- capture form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
@@ -109,11 +117,7 @@
           </variant-media>
         {%- endif -%}
         
-{% for variant in product.variants %}
-  {% if variant.inventory_policy == "continue" %}
-    <span class="label-continue-selling">Disponibile per Pre-Ordine</span>
-  {% endif %}
-{% endfor %}
+
         
         <div class="v-stack">
           <span class="h6">{{ product.title }}</span>
