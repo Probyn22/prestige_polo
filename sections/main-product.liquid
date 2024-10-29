@@ -108,7 +108,13 @@
             {{- default_media | image_url: width: default_media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120,180' -}}
           </variant-media>
         {%- endif -%}
-
+        
+{% for variant in product.variants %}
+  {% if variant.inventory_policy == "continue" %}
+    <span class="label-continue-selling">Disponibile per Pre-Ordine</span>
+  {% endif %}
+{% endfor %}
+        
         <div class="v-stack">
           <span class="h6">{{ product.title }}</span>
           {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: form_id, hide_unit_price: true, context: 'card' -%}
@@ -160,11 +166,7 @@ quick buy information in a template, that will be extracted in JS, which ensures
 </script>
 
 
-{% for variant in product.variants %}
-  {% if variant.inventory_policy == "continue" %}
-    <span class="label-continue-selling">Disponibile per Pre-Ordine</span>
-  {% endif %}
-{% endfor %}
+
 
 {% schema %}
 {
