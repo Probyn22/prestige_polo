@@ -159,6 +159,13 @@ quick buy information in a template, that will be extracted in JS, which ensures
   }
 </script>
 
+
+{% for variant in product.variants %}
+  {% if variant.inventory_policy == "continue" %}
+    <span class="label-continue-selling">Disponibile per Pre-Ordine</span>
+  {% endif %}
+{% endfor %}
+
 {% schema %}
 {
   "name": "t:sections.main_product.name",
