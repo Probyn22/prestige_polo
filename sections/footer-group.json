@@ -16,9 +16,9 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "",
+        "liquid": "<div class=\"popbrevo\">\n  <iframe \n    width=\"540\" \n    height=\"305\" \n    src=\"https://4b80c028.sibforms.com/serve/MUIFAPijVAQidBAv4JDaDo_1LVR4_I_aND7GYW-Fsg6R7fZM-ZTigbhbywSFnYbIlCGyhYm3BBpeGqwak0HcIR-aJNPKLuAzPpCdJrEmTbNRRsPl-hxrTbvFHp6C9H-7paoz8XqZW3PNPS6uQT-nlpXY8V1a7zezWGxxLmgQB0UsSUHFUDGBRxjuH4-5M8R6IC8PEN1r_NWmwep4\" \n    frameborder=\"0\" \n    scrolling=\"auto\" \n    allowfullscreen \n    style=\"display: block; margin-left: auto; margin-right: auto; max-width: 100%;\">\n  </iframe>\n</div>",
         "text_alignment": "center"
       }
     },
