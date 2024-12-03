@@ -1,21 +1,33 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "custom_liquid_WdbUig": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"popbrevo\">\n  <iframe \n    width=\"540\" \n    height=\"305\" \n    src=\"https://4b80c028.sibforms.com/serve/MUIFAHQjEf5gPFWikqiQdqqGmOMGGGIpSo5em4_MQv7P9m3rOszebwn95i9lSwV3L6sh0tqMcf29ZG8VQa15m_elHS4NcRrXQnbOD7pTzqH4rO7BMerqUEWfX1WiCNOXB-Dewnj68XPaLVYRTv7K6QhxpuuZws4_xGlPl_LNM6PSnKY0yTcjy8Cf1DGuYjto6yfRYuY89ORzKuzM\" \n    frameborder=\"0\" \n    scrolling=\"auto\" \n    allowfullscreen \n    style=\"display: block; margin-left: auto; margin-right: auto; max-width: 100%;\">\n  </iframe>\n</div>",
+        "text_alignment": "center"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
         "newsletter": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "Newsletter",
             "content": "<p>ISCRIVITI PER RICEVERE LA MAIL E CONTRLLARE IL CONTENUTO PER I TEST</p>",
@@ -67,6 +79,7 @@
     }
   },
   "order": [
+    "custom_liquid_WdbUig",
     "footer"
   ]
 }
