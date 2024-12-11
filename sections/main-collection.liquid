@@ -231,6 +231,37 @@ LIQUID
     </div>
   </div>
 </div>
+{% comment %}
+  Sezione custom per mostrare solo gli articoli con immagini nella pagina di una collezione.
+{% endcomment %}
+
+<section class="custom-collection-section">
+  <div class="product-grid">
+    {% if collection.products.size > 0 %}
+      {% for product in collection.products %}
+        {% assign product_has_image = false %}
+        
+        {% for image in product.images %}
+          {% if image.src != blank %}
+            {% assign product_has_image = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        
+        {% if product_has_image %}
+          <div class="product-item">
+            <a href="{{ product.url }}">
+              <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+              <p>{{ product.title }}</p>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      <p>Nessun prodotto disponibile in questa collezione.</p>
+    {% endif %}
+  </div>
+</section>
 
 {% schema %}
 {
