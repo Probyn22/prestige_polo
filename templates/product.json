@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,13 +14,11 @@
       "blocks": {
         "sku_Gf9eCd": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -77,18 +75,6 @@
             "page": ""
           }
         },
-        "accordion_CQPjix": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "custom_icon": "shopify://shop_images/fav_polo.png",
-            "title": "COLORE SUPER",
-            "content": "<p>{{ product.metafields.product.super_color.value }}</p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
         "accordion_CEf4ed": {
           "type": "accordion",
           "settings": {
@@ -125,6 +111,17 @@
             "page": ""
           }
         },
+        "accordion_hpiPJ3": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Title",
+            "content": "",
+            "liquid": "",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -137,8 +134,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -161,10 +157,10 @@
         "accordion_bCyrdy",
         "accordion_KFzQw9",
         "accordion_BrNymn",
-        "accordion_CQPjix",
         "accordion_CEf4ed",
         "accordion_aEBw9K",
         "accordion_zg4GAy",
+        "accordion_hpiPJ3",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
