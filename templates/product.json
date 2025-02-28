@@ -39,15 +39,13 @@
             "show_below_gallery": false
           }
         },
-        "accordion_QJKjcJ": {
-          "type": "accordion",
+        "product_variations_gVf8Lh": {
+          "type": "product_variations",
           "settings": {
-            "show_below_gallery": true,
-            "icon": "none",
-            "title": "VARIANTI",
-            "content": "",
-            "liquid": "{% if product.metafields.custom.varianti != blank %}\n  {% assign varianti = product.metafields.custom.varianti | parse_json %}\n  <ul class=\"product-variants\">\n    {% for variante in varianti %}\n      <li>{{ variante.nome }} - {{ variante.prezzo }}</li>\n    {% endfor %}\n  </ul>\n{% endif %}",
-            "page": ""
+            "option_name": "VARIANTI COLORI",
+            "option_value_metafield": "",
+            "products": "{{ product.metafields.custom.varianti.value }}",
+            "selector_style": "variant_image"
           }
         },
         "accordion_bCyrdy": {
@@ -157,15 +155,6 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
-        },
-        "product_variations_gVf8Lh": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "VARIANTI COLORI",
-            "option_value_metafield": "",
-            "products": "{{ product.metafields.custom.varianti.value }}",
-            "selector_style": "variant_image"
-          }
         }
       },
       "block_order": [
@@ -174,7 +163,7 @@
         "title",
         "price",
         "description",
-        "accordion_QJKjcJ",
+        "product_variations_gVf8Lh",
         "accordion_bCyrdy",
         "accordion_KFzQw9",
         "accordion_BrNymn",
@@ -184,8 +173,7 @@
         "accordion_hpiPJ3",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
-        "product_variations_gVf8Lh"
+        "buy_buttons"
       ],
       "settings": {
         "color_scheme": "scheme-3",
